@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sweet Shop Management</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>🍬 Sweet Shop Management</h1>
+
+    <div class="card">
+      <h2>Add Sweet</h2>
+
+      <div class="form">
+        <input id="name" placeholder="Sweet Name" />
+        <input id="price" type="number" placeholder="Price ₹" />
+        <input id="quantity" type="number" placeholder="Quantity" />
+        <button onclick="addSweet()">Add Sweet</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Sweet Inventory</h2>
+      <ul id="sweetList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
